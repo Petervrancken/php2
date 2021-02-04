@@ -35,11 +35,24 @@
       <updated>1612261759816</updated>
       <workItem from="1612261760909" duration="1180000" />
       <workItem from="1612267628355" duration="3188000" />
+      <workItem from="1612404796939" duration="300000" />
     </task>
+    <task id="LOCAL-00001" summary="start php2">
+      <created>1612404871093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612404871093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start php2" />
+    <option name="LAST_COMMIT_MESSAGE" value="start php2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1612272694640">
