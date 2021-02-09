@@ -15,8 +15,10 @@ require_once "security.php";
 require_once "routing.php";
 require_once "strings.php";
 
-//models
+//models class
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/city.php";
+//user class
+require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/user.php";
 
 //access control
 require_once "access_control.php";

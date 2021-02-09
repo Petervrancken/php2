@@ -2,59 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dce87514-e7b3-41c5-8809-1cdcec2f5b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oef1.2/assets/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/btw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/btw_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/date1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/date2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/dropzone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/img/beer4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/img/stad1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/img/stad2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/img/stad3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/js/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/access_control.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/connection_data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/csv_export_functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/export_btw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/form_elements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/html_functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/login_check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/pdo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/routing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/sanitize.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/save.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/security.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/strings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/upload_dropzone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/lib/validate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/models/city.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/no_access.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/profiel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/stad.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/stad_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/steden.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/btw_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/column_full.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/dropzone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/jumbo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/profiel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.2/templates/stad_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef1.2/models/user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.1/img/berlin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/img/stad1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.1/img/london_2423609b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/img/stad3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.1/img/paris.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/img/stad2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.1/lib/connection_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.1/lib/connection_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.2/lib/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.2/lib/autoload.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +47,7 @@
       <workItem from="1612404796939" duration="360000" />
       <workItem from="1612814534923" duration="3689000" />
       <workItem from="1612820204666" duration="9000" />
-      <workItem from="1612832220042" duration="342000" />
+      <workItem from="1612832220042" duration="2144000" />
     </task>
     <task id="LOCAL-00001" summary="start php2">
       <created>1612404871093</created>
@@ -127,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612815484692</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="oefening 1.2 start">
+      <created>1612832581292</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612832581292</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,13 +93,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start php2" />
     <MESSAGE value="oefening 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="oefening 1.1" />
+    <MESSAGE value="oefening 1.2 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="oefening 1.2 start" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="-1440" key="CommitChangelistDialog2" timestamp="1612815484003">
+    <state x="1389" y="-1028" key="#com.intellij.ide.util.MemberChooser" timestamp="1612833012334">
       <screen x="-324" y="-1440" width="2560" height="1400" />
     </state>
-    <state x="321" y="-1440" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1612815484003" />
+    <state x="1389" y="-1028" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1612833012334" />
+    <state x="321" y="-1440" key="CommitChangelistDialog2" timestamp="1612832580565">
+      <screen x="-324" y="-1440" width="2560" height="1400" />
+    </state>
+    <state x="321" y="-1440" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1612832580565" />
     <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1612405124327" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1612817848774">
       <screen x="0" y="0" width="1536" height="824" />
@@ -152,10 +114,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="332" key="Github.CreateGistDialog/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1612272612088" />
-    <state x="278" y="-1194" key="Vcs.Push.Dialog.v2" timestamp="1612815516063">
+    <state x="278" y="-1194" key="Vcs.Push.Dialog.v2" timestamp="1612832561028">
       <screen x="-324" y="-1440" width="2560" height="1400" />
     </state>
-    <state x="278" y="-1194" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1612815516063" />
+    <state x="278" y="-1194" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1612832561028" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1612405137273" />
   </component>
 </project>
