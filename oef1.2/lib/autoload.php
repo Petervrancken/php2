@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 //print json_encode($_SERVER); exit;
 $request_uri = explode("/", $_SERVER['REQUEST_URI']);
@@ -19,6 +18,8 @@ require_once "strings.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/city.php";
 //user class
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/user.php";
+
+session_start();
 
 //access control
 require_once "access_control.php";

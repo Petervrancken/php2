@@ -6,7 +6,25 @@ class User
 {
     private $userId;
     private $userVoorNaam;
+    private $userNaam;
     private $userEmail;
+
+    /**
+     * @return mixed
+     */
+    public function getUserNaam()
+    {
+        return $this->userNaam;
+    }
+
+    /**
+     * @param mixed $userNaam
+     */
+    public function setUserNaam($userNaam): void
+    {
+        $this->userNaam = $userNaam;
+    }
+
 
     /**
      * @return mixed
@@ -19,7 +37,7 @@ class User
     /**
      * @param mixed $userId
      */
-    public function setUserId($userId)
+    public function setUserId($userId): void
     {
         $this->userId = $userId;
     }
@@ -35,7 +53,7 @@ class User
     /**
      * @param mixed $userVoorNaam
      */
-    public function setUserVoorNaam($userVoorNaam)
+    public function setUserVoorNaam($userVoorNaam): void
     {
         $this->userVoorNaam = $userVoorNaam;
     }
@@ -51,7 +69,7 @@ class User
     /**
      * @param mixed $userEmail
      */
-    public function setUserEmail($userEmail)
+    public function setUserEmail($userEmail): void
     {
         $this->userEmail = $userEmail;
     }
