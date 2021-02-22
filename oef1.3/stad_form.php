@@ -21,8 +21,8 @@ PrintJumbo( $title = "Bewerk afbeelding", $subtitle = "" );
             //add extra elements
             $extra_elements['csrf_token'] = GenerateCSRF( "stad_form.php"  );
             $extra_elements['select_land'] = MakeSelect( $fkey = 'img_lan_id',
-                                                                                            $value = $row['img_lan_id'] ,
-                                                                                            $sql = "select lan_id, lan_land from land" );
+                $value = $row['img_lan_id'] ,
+                $sql = "select lan_id, lan_land from land" );
 
 
             //get template

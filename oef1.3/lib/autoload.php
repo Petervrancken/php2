@@ -19,7 +19,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/city.php";
 //user class
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/user.php";
 
+require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/MessageService.php";
+
 session_start();
+
+//messageservice
+$ms = new MessageService();
 
 //access control
 require_once "access_control.php";
