@@ -84,7 +84,10 @@ class MessageService
 
     public function ShowInfos()
     {
-        echo "<div class='msgs'>$this->infos</div>";
+        if($this->infos){
+            echo "<div class='msgs'>$this->infos</div>";
+        }
     }
+
 
 }
