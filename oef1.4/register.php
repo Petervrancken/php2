@@ -33,9 +33,10 @@ PrintJumbo( $title = "Registreer", $subtitle = "" );
             $extra_elements['csrf_token'] = GenerateCSRF( "register.php"  );
 
             //merge
+            global $ms;
             $output = MergeViewWithData( $output, $data );
             $output = MergeViewWithExtraElements( $output, $extra_elements );
-            $output = MergeViewWithErrors( $output, $errors );
+            $output = MergeViewWithErrors( $output, $ms->ShowErrors() );
             $output = RemoveEmptyErrorTags( $output, $data );
 
             print $output;

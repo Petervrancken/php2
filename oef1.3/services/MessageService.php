@@ -10,7 +10,7 @@ class MessageService
     {
         $this->errors = $_SESSION['errors'];
         $_SESSION['errors'] = [];
-        //var_dump($this->errors);
+        var_dump($this->errors);
         $this->input_errors = $_SESSION['input_errors'];
         var_dump($this->input_errors);
         $_SESSION['input_errors'] = [];

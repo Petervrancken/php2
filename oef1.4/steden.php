@@ -15,10 +15,11 @@ PrintNavbar();
 
 <?php
     //toon messages als er zijn
+    global $ms;
     $ms->ShowInfos();
 
     //get data
-    $data = $dbm->GetData( "select * from images" );
+    $data = GetData( "select * from images" );
 
     //get template
     $template = file_get_contents("templates/column.html");

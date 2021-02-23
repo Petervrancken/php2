@@ -61,7 +61,7 @@ function LoginCheck()
         $ww = $_POST['usr_password'];
 
         $sql = "SELECT * FROM user WHERE usr_email='$email' ";
-        $data = $dbm->GetData($sql);
+        $data = GetData($sql);
 
         if ( count($data) > 0 )
         {
