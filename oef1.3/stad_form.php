@@ -29,10 +29,12 @@ PrintJumbo( $title = "Bewerk afbeelding", $subtitle = "" );
             $output = file_get_contents("templates/stad_form.html");
 
             //merge
+            global $ms;
             $output = MergeViewWithData( $output, $data );
             $output = MergeViewWithExtraElements( $output, $extra_elements );
-            $output = MergeViewWithErrors( $output, $errors );
+            $output = MergeViewWithErrors( $output, $ms->ShowErrors() );
             $output = RemoveEmptyErrorTags( $output, $data );
+
 
             print $output;
         ?>

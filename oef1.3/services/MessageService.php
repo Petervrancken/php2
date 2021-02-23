@@ -10,10 +10,12 @@ class MessageService
     {
         $this->errors = $_SESSION['errors'];
         $_SESSION['errors'] = [];
+        //var_dump($this->errors);
         $this->input_errors = $_SESSION['input_errors'];
+        var_dump($this->input_errors);
         $_SESSION['input_errors'] = [];
-        $this->infos = $_SESSION['infos'];
-        $_SESSION['infos'] = [];
+        $this->infos = $_SESSION['msgs'];
+        $_SESSION['msgs'] = [];
     }
 
     /**
@@ -55,15 +57,15 @@ class MessageService
      * @return int
      */
     public function CountNewInfos(){
-        return count($_SESSION['infos']);
+        return count($_SESSION['msgs']);
     }
 
     /**
-     * @return mixed
+     * @return mixed|null
      */
     public function getInputErrors()
     {
-        if ($this->CountInputErrors()){
+        if ($this->CountInputErrors() > 0){
             return $this->input_errors;
         } else {
             return null;
@@ -79,14 +81,17 @@ class MessageService
 
     public function ShowErrors()
     {
-        echo "<p style='color:red'>$this->errors</p>";
+       return $this->errors;
     }
 
     public function ShowInfos()
     {
-        if($this->infos){
-            echo "<div class='msgs'>$this->infos</div>";
+        foreach ($this->infos as $msg){
+            if($this->infos){
+                echo "<div class='msgs'>$msg</div>";
+            }
         }
+        echo "<p style='color:red'>$this->errors</p>";
     }
 
 
