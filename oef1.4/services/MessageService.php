@@ -81,7 +81,7 @@ class MessageService
 
     public function ShowErrors()
     {
-       return $this->errors;
+       return $this->input_errors;
     }
 
     public function ShowInfos()

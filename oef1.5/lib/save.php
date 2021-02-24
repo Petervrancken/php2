@@ -59,7 +59,7 @@ function SaveFormData()
         }
 
         //terugkeren naar afzender als er een fout is
-        if ( isset($_SESSION['errors']) AND count($_SESSION['errors']) > 0 )
+        if ( isset($_SESSION['errors']) OR isset($_SESSION['input_errors']) AND count($_SESSION['errors']) > 0 OR count($_SESSION['input_errors']) > 0)
         {
             $_SESSION['OLD_POST'] = $_POST;
             header( "Location: " . $sending_form_uri ); exit();

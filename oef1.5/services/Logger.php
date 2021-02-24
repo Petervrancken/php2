@@ -8,9 +8,10 @@ class Logger
 
 
     public function __contruct(){
-        global $app_root;
+        //global $app_root;
         $this->fp = fopen($this->logfile, 'a');
-        $this->logfile = $_SERVER['DOCUMENT_ROOT'] . $app_root . "/log/log.txt";
+        //$this->logfile = $_SERVER['DOCUMENT_ROOT'] . $app_root . "/log/log.txt";
+        $this->logfile = $_SERVER['DOCUMENT_ROOT'] . "/php2/oef1.5/log/log.txt";
         var_dump($this->logfile);
     }
 
