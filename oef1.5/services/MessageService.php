@@ -72,16 +72,17 @@ class MessageService
         }
     }
 
-    /*public function AddMessage( $type, $msg, $key = null ) //... nog over nadenken
-    {
-        $this->errors = $type;
-        $this->infos = $msg;
-        $this->input_errors = $key;
-    }*/
+    public function AddMessage($type, $msg, $key = null){
+        if($type == 'input_errors'){
+            $_SESSION['input_errors'][$key . '_error'] = $msg;
+        } else {
+            $_SESSION[$type] = $msg;
+        }
+    }
 
     public function ShowErrors()
     {
-       return $this->input_errors;
+        print "<p style='color:red'>$this->errors</p>";
     }
 
     public function ShowInfos()

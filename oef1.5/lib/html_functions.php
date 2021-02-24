@@ -66,8 +66,10 @@ function MergeViewWithExtraElements( $template, $elements )
     return $template;
 }
 
+
 function MergeViewWithErrors( $template, $errors )
 {
+    var_dump($errors);
     foreach ( $errors as $key => $error )
     {
         $template = str_replace( "@$key@", "<p style='color:red'>$error</p>", $template );
