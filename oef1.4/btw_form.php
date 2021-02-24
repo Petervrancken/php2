@@ -15,7 +15,8 @@ PrintNavbar();
 
         <?php
             //get data
-            $data = GetData( "select * from eu_btw_codes where eub_id=" . $_GET['eub_id'] );
+            global $dbm;
+            $data = $dbm->GetData( "select * from eu_btw_codes where eub_id=" . $_GET['eub_id'] );
 
             //get template
             $output = file_get_contents("templates/btw_form.html");

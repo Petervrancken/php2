@@ -7,6 +7,8 @@ require_once "autoload.php";
 
 SaveFormData();
 
+
+
 function SaveFormData()
 {
 
@@ -109,7 +111,8 @@ function SaveFormData()
         $sql .= $where;
 
         //run SQL
-        $result = ExecuteSQL( $sql );
+        global $dbm;
+        $result = $dbm->ExecuteSQL( $sql );
 
         //output if not redirected
         print $sql ;

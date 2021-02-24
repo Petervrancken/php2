@@ -19,7 +19,8 @@ PrintNavbar();
     $ms->ShowInfos();
 
     //get data
-    $data = GetData( "select * from images" );
+    global $dbm;
+    $data = $dbm->GetData( "select * from images" );
 
     //get template
     $template = file_get_contents("templates/column.html");

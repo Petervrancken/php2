@@ -15,7 +15,8 @@ PrintNavbar();
 
         <?php
             //get data
-            $data = GetData( "select * from user where usr_id=" . $_SESSION['user']->getUserId() );
+            global $dbm;
+            $data = $dbm->GetData( "select * from user where usr_id=" . $_SESSION['user']->getUserId() );
 
             //get template
             $output = file_get_contents("templates/profiel.html");

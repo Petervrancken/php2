@@ -60,8 +60,10 @@ function LoginCheck()
         $email = $_POST['usr_email'];
         $ww = $_POST['usr_password'];
 
+        global $dbm;
+
         $sql = "SELECT * FROM user WHERE usr_email='$email' ";
-        $data = GetData($sql);
+        $data = $dbm->GetData($sql);
 
         if ( count($data) > 0 )
         {
