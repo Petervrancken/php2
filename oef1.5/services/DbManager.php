@@ -3,6 +3,21 @@
 
 class DbManager
 {
+    private $logger;
+
+    public function __construct(Logger $logger)
+    {
+        $this->logger = $logger;
+    }
+
+    /**
+     * @return Logger
+     */
+    public function getLogger()
+    {
+        return $this->logger;
+    }
+
     public function CreateConnection()
     {
         global $conn;
@@ -48,6 +63,8 @@ class DbManager
     public function ExecuteSQL( $sql )
     {
         global $conn;
+
+        $this->logger->Log($sql);
 
         $this->CreateConnection();
 

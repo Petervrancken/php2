@@ -18,12 +18,14 @@ require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/city.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/user.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/MessageService.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/DbManager.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/Logger.php";
 
 session_start();
 
 //activate new classes
 $ms = new MessageService();
 $dbm = new DbManager();
+$logger = new Logger();
 
 //access control
 require_once "access_control.php";
