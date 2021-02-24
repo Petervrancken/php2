@@ -81,7 +81,7 @@ class MessageService
 
     public function ShowErrors()
     {
-       return $this->errors;
+       return $this->input_errors;
     }
 
     public function ShowInfos()
@@ -91,7 +91,6 @@ class MessageService
                 echo "<div class='msgs'>$msg</div>";
             }
         }
-        echo "<p style='color:red'>$this->errors</p>";
     }
 
 

@@ -26,7 +26,7 @@ function CompareWithDatabase( $table, $pkey ): void
                 if ( ! isInt($sent_value) ) //nee
                 {
                     $msg = $sent_value . " moet een geheel getal zijn";
-                    $_SESSION['errors'][ "$fieldname" . "_error" ] = $msg;
+                    $_SESSION['input_errors'][ "$fieldname" . "_error" ] = $msg;
                 }
                 else //ja
                 {
@@ -41,7 +41,7 @@ function CompareWithDatabase( $table, $pkey ): void
                 if ( ! is_numeric($sent_value) ) //nee
                 {
                     $msg = $sent_value . " moet een getal zijn (eventueel met decimalen)";
-                    $_SESSION['errors'][ "$fieldname" . "_error" ] = $msg;
+                    $_SESSION['input_errors'][ "$fieldname" . "_error" ] = $msg;
                 }
                 else //ja
                 {
@@ -56,7 +56,7 @@ function CompareWithDatabase( $table, $pkey ): void
                 if ( strlen($sent_value) > $length )
                 {
                     $msg = "Dit veld kan maximum $length tekens bevatten";
-                    $_SESSION['errors'][ "$fieldname" . "_error" ] = $msg;
+                    $_SESSION['input_errors'][ "$fieldname" . "_error" ] = $msg;
                 }
             }
 
@@ -66,7 +66,7 @@ function CompareWithDatabase( $table, $pkey ): void
                 if ( ! isDate( $sent_value) )
                 {
                     $msg = $sent_value . " is geen geldige datum";
-                    $_SESSION['errors'][ "$fieldname" . "_error" ] = $msg;
+                    $_SESSION['input_errors'][ "$fieldname" . "_error" ] = $msg;
                 }
             }
 
@@ -79,7 +79,7 @@ function ValidateUsrPassword( $password )
 {
     if ( strlen($password) < 8 )
     {
-        $_SESSION['errors']['usr_password_error'] = "Het wachtwoord moet minstens 8 tekens bevatten";
+        $_SESSION['input_errors']['usr_password_error'] = "Het wachtwoord moet minstens 8 tekens bevatten";
         return false;
     }
 
@@ -94,7 +94,7 @@ function ValidateUsrEmail( $email )
     }
     else
     {
-        $_SESSION['errors']['usr_email_error'] = "Geen geldig e-mailadres!";
+        $_SESSION['input_errors']['usr_email_error'] = "Geen geldig e-mailadres!";
         return false;
     }
 }
@@ -106,7 +106,7 @@ function CheckUniqueUsrEmail( $email )
 
     if (count($rows) > 0)
     {
-        $_SESSION['errors']['usr_email_error'] = "Er bestaat al een gebruiker met dit e-mailadres";
+        $_SESSION['input_errors']['usr_email_error'] = "Er bestaat al een gebruiker met dit e-mailadres";
         return false;
     }
 
