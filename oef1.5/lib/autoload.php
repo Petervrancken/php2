@@ -24,8 +24,10 @@ session_start();
 
 //activate new classes
 $ms = new MessageService();
-$dbm = new DbManager();
 $logger = new Logger();
+var_dump($logger);
+$dbm = new DbManager($logger);
+
 
 //access control
 require_once "access_control.php";

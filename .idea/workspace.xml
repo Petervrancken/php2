@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dce87514-e7b3-41c5-8809-1cdcec2f5b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oef1.5/log/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.5/services/Logger.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oef1.5/lib/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/lib/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.5/lib/form_elements.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/lib/form_elements.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oef1.5/services/DbManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/services/DbManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.5/services/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.5/services/Logger.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <workItem from="1613962420536" duration="38000" />
       <workItem from="1614112907831" duration="11153000" />
       <workItem from="1614124880365" duration="2214000" />
-      <workItem from="1614127116863" duration="5181000" />
+      <workItem from="1614127116863" duration="6143000" />
     </task>
     <task id="LOCAL-00001" summary="start php2">
       <created>1612404871093</created>
@@ -164,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614126515122</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1.5 error to few arguments dbManager....">
+      <created>1614132454183</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614132454183</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +189,8 @@
     <MESSAGE value="1.3 msgs and errors autoload commented" />
     <MESSAGE value="1.4 finish" />
     <MESSAGE value="1.5 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5 start" />
+    <MESSAGE value="1.5 error to few arguments dbManager...." />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5 error to few arguments dbManager...." />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614124898662">
@@ -200,11 +206,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614125313161" />
-    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1614126514174">
+    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1614132453568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="321" y="-1440" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1613002377744" />
-    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614126514174" />
+    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614132453568" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1612817848774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -217,11 +223,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="486" y="135" key="NewPhpClassDialog/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614127682150" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614126353494">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614132465857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="278" y="-1194" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1613002389806" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614126353494" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614132465857" />
     <state x="1345" y="-814" width="579" height="534" key="find.popup" timestamp="1614126194337">
       <screen x="-324" y="-1440" width="2560" height="1400" />
     </state>

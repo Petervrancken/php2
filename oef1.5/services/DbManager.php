@@ -39,6 +39,7 @@ class DbManager
     {
         global $conn;
 
+        $this->logger->Log($sql);
         $this->CreateConnection();
 
         //define and execute query

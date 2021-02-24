@@ -7,19 +7,22 @@ class Logger
     private $logfile;
 
 
-    public function __contruct($logfile){
+    public function __contruct(){
         global $app_root;
-        $this->fp = fopen($this->logfile, 'r');
-        $this->logfile = $_SERVER['DOCUMENT_ROOT'] . $app_root . "/log/log.txt";;
+        $this->fp = fopen($this->logfile, 'a');
+        $this->logfile = $_SERVER['DOCUMENT_ROOT'] . $app_root . "/log/log.txt";
+        var_dump($this->logfile);
     }
 
     public function Log($msg){
-        fwrite($this->fp,date("Y/m/d h:i:sa"), $msg . ' \r\n');
+        fwrite($this->fp,date("Y/m/d h:i:sa") ." " . $msg . '\r\n');
     }
 
     public function ShowLog(){
-        file_get_contents($this->logfile);
+        $log = file_get_contents($this->logfile);
+        return $log;
     }
+
 
 
 }
