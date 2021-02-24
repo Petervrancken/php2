@@ -31,7 +31,6 @@ PrintJumbo( $title = "Bewerk afbeelding", $subtitle = "" );
             //merge
             global $ms;
             $errors = $ms->getInputErrors();
-            var_dump($errors);
             $output = MergeViewWithData( $output, $data );
             $output = MergeViewWithExtraElements( $output, $extra_elements );
             $output = MergeViewWithErrors( $output, $errors );

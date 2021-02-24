@@ -34,9 +34,10 @@ PrintJumbo( $title = "Registreer", $subtitle = "" );
 
             //merge
             global $ms;
+            $errors = $ms->getInputErrors();
             $output = MergeViewWithData( $output, $data );
             $output = MergeViewWithExtraElements( $output, $extra_elements );
-            $output = MergeViewWithErrors( $output, $ms->ShowErrors() );
+            $output = MergeViewWithErrors( $output, $errors );
             $output = RemoveEmptyErrorTags( $output, $data );
 
             print $output;

@@ -15,7 +15,8 @@ PrintJumbo( $title = "Bewerk afbeelding", $subtitle = "" );
             if ( ! is_numeric( $_GET['img_id']) ) die("Ongeldig argument " . $_GET['img_id'] . " opgegeven");
 
             //get data
-            $data = GetData( "select * from images where img_id=" . $_GET['img_id'] );
+            global $dbm;
+            $data = $dbm->GetData( "select * from images where img_id=" . $_GET['img_id'] );
             $row = $data[0]; //there's only 1 row in data
 
             //add extra elements
@@ -31,7 +32,6 @@ PrintJumbo( $title = "Bewerk afbeelding", $subtitle = "" );
             //merge
             global $ms;
             $errors = $ms->getInputErrors();
-            var_dump($errors);
             $output = MergeViewWithData( $output, $data );
             $output = MergeViewWithExtraElements( $output, $extra_elements );
             $output = MergeViewWithErrors( $output, $errors );
