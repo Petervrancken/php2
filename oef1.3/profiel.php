@@ -15,7 +15,7 @@ PrintNavbar();
 
         <?php
             //get data
-            $data = GetData( "select * from user where usr_id=" . $_SESSION['user']->getUserId() );
+            $data = GetData( "select * from user where usr_id=" . $_SESSION['user']->getId() );
 
             //get template
             $output = file_get_contents("templates/profiel.html");
@@ -24,8 +24,6 @@ PrintNavbar();
             $extra_elements['csrf_token'] = GenerateCSRF( "profiel.php"  );
 
             //merge
-            global $ms;
-            $errors = $ms->getInputErrors();
             $output = MergeViewWithData( $output, $data );
             $output = MergeViewWithExtraElements( $output, $extra_elements );
             $output = MergeViewWithErrors( $output, $errors );

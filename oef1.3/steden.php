@@ -15,7 +15,7 @@ PrintNavbar();
 
 <?php
     //toon messages als er zijn
-    global $ms;
+    $ms->ShowErrors();
     $ms->ShowInfos();
 
     //get data

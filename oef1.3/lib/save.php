@@ -56,8 +56,9 @@ function SaveFormData()
             ValidateUsrEmail( $_POST['usr_email'] );
         }
 
+        global $ms;
         //terugkeren naar afzender als er een fout is
-        if ( isset($_SESSION['errors']) OR isset($_SESSION['input_errors']) AND count($_SESSION['errors']) > 0 OR count($_SESSION['input_errors']) > 0)
+        if ( $ms->CountNewErrors() > 0 OR $ms->CountNewInputErrors() )
         {
             $_SESSION['OLD_POST'] = $_POST;
             header( "Location: " . $sending_form_uri ); exit();

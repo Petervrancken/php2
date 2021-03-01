@@ -29,11 +29,9 @@ PrintJumbo( $title = "Bewerk afbeelding", $subtitle = "" );
             $output = file_get_contents("templates/stad_form.html");
 
             //merge
-            global $ms;
-            $errors = $ms->getInputErrors();
             $output = MergeViewWithData( $output, $data );
             $output = MergeViewWithExtraElements( $output, $extra_elements );
-            $output = MergeViewWithErrors( $output, $errors );
+            $output = MergeViewWithErrors( $output, $ms->GetInputErrors() );
             $output = RemoveEmptyErrorTags( $output, $data );
 
 

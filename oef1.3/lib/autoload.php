@@ -23,29 +23,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/MessageService.p
 
 session_start();
 
-//messageservice
-$ms = new MessageService();
-
 //access control
 require_once "access_control.php";
 
-//initialize $errors array
-/*$errors = [];
+//messageservice
+$ms = new MessageService();
 
-if ( key_exists( 'errors', $_SESSION ) AND is_array( $_SESSION['errors']) )
-{
-    $errors = $_SESSION['errors'];
-    $_SESSION['errors'] = [];
-}
-
-//initialize $msgs array
-$msgs = [];
-
-if ( key_exists( 'msgs', $_SESSION ) AND is_array( $_SESSION['msgs']) )
-{
-    $msgs = $_SESSION['msgs'];
-    $_SESSION['msgs'] = [];
-}*/
 
 //initialize $old_post
 $old_post = [];

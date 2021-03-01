@@ -8,91 +8,97 @@ class MessageService
 
     public function __construct()
     {
-        $this->errors = $_SESSION['errors'];
-        $_SESSION['errors'] = [];
-        var_dump($this->errors);
-        $this->input_errors = $_SESSION['input_errors'];
-        var_dump($this->input_errors);
-        $_SESSION['input_errors'] = [];
-        $this->infos = $_SESSION['msgs'];
-        $_SESSION['msgs'] = [];
+        $this->errors = $this->LoadMessages("errors");
+        $this->input_errors = $this->LoadMessages("input_errors");
+        $this->infos = $this->LoadMessages("infos");
     }
 
-    /**
-     * @return int
-     */
-    public function CountErrors(){
-        return count($this->errors);
-    }
-
-    /**
-     * @return int
-     */
-    public function CountInputErrors(){
-        return count($this->input_errors);
-    }
-
-    /**
-     * @return int
-     */
-    public function CountInfos(){
-        return count($this->infos);
-    }
-
-    /**
-     * @return int
-     */
-    public function CountNewErrors(){
-        return count($_SESSION['errors']);
-    }
-
-    /**
-     * @return int
-     */
-    public function CountNewInputErrors(){
-        return count($_SESSION['input_errors']);
-    }
-
-    /**
-     * @return int
-     */
-    public function CountNewInfos(){
-        return count($_SESSION['msgs']);
-    }
-
-    /**
-     * @return mixed|null
-     */
-    public function getInputErrors()
+    public function LoadMessages( $type )
     {
-        if ($this->CountInputErrors() > 0){
-            return $this->input_errors;
-        } else {
-            return null;
+        $returnvalue = null;
+
+        if ( isset( $_SESSION[$type]) )
+        {
+            $returnvalue = $_SESSION[$type];
+            unset($_SESSION[$type]);
         }
+
+        return $returnvalue;
     }
 
-    public function AddMessage($type, $msg, $key = null){
-        if($type == 'input_errors'){
-            $_SESSION['input_errors'][$key . '_error'] = $msg;
-        } else {
-            $_SESSION[$type] = $msg;
+    public function CountNewErrors()
+    {
+        if ( isset($_SESSION['errors']) AND count($_SESSION['errors']) > 0 ) return count($_SESSION['errors']);
+        else return 0;
+    }
+
+    public function CountErrors()
+    {
+        if ( $this->errors ) return count($this->errors);
+        else return 0;
+    }
+
+    public function CountNewInputErrors()
+    {
+        if ( isset($_SESSION['input_errors']) AND count($_SESSION['input_errors']) > 0 ) return count($_SESSION['input_errors']);
+        else return 0;
+    }
+
+    public function CountInputErrors()
+    {
+        if ( $this->input_errors ) return count($this->input_errors);
+        else return 0;
+    }
+
+    public function GetInputErrors()
+    {
+        return $this->input_errors;
+    }
+
+    public function CountNewInfos()
+    {
+        if ( isset($_SESSION['infos']) AND count($_SESSION['infos']) > 0 ) return count($_SESSION['infos']);
+        else return 0;
+    }
+
+    public function CountInfos()
+    {
+        if ( $this->infos ) return count($this->infos);
+        else return 0;
+    }
+
+    public function AddMessage( $type, $msg, $key = null )
+    {
+        if ( $type == "input_errors" )
+        {
+            $_SESSION[$type][$key] = $msg;
+        }
+        else
+        {
+            $_SESSION[$type][] = $msg;
         }
     }
 
     public function ShowErrors()
     {
-        print "<p style='color:red'>$this->errors</p>";
-    }
-
-    public function ShowInfos()
-    {
-        foreach ($this->infos as $msg){
-            if($this->infos){
-                echo "<div class='msgs'>$msg</div>";
+        if ( $this->CountErrors() > 0 )
+        {
+            foreach ( $this->errors as $error )
+            {
+                print '<div class="error">' . $error . '</div>';
             }
         }
     }
 
+    public function ShowInfos()
+    {
+        if ( $this->CountInfos() > 0 )
+        {
+            foreach ( $this->infos as $info )
+            {
+                print '<div class="msgs">' . $info . '</div>';
+            }
+        }
+    }
 
 }
