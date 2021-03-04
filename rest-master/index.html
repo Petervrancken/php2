@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REST Overview</title>
+</head>
+<body>
+
+    <h3>Web service calls from different clients to OpenWeatherMap</h3>
+    <ul>
+        <li><a href="client/jquery">Client JQuery</a></li>
+        <li><a href="client/js1">Client JS1</a></li>
+        <li><a href="client/js2">Client JS2</a></li>
+        <li><a href="client/php">Client PHP</a></li>
+    </ul>
+
+    <h3>Different AJAX calls to own RESTful webservice</h3>
+    <ul>
+        <li><a href="server/1_get_text">Server 1: GET text</a></li>
+        <li><a href="server/2_get_json">Server 2: GET json</a></li>
+        <li><a href="server/3_post_form_data">Server 3: POST form data</a></li>
+        <li><a href="server/4_post_json_data">Server 4: POST json data</a></li>
+        <li><a href="server/5_put_json_data">Server 5: PUT json data</a></li>
+        <li><a href="server/6_delete_json_data">Server 6: DELETE json data</a></li>
+    </ul>
+
+
+    <h3>REST API</h3>
+
+        <ul>
+            <li><a href="z_api_example/spelers">GET spelers</a></li>
+            <li><a href="z_api_example/speler/24">GET speler 24</a></li>
+            <li>
+                <p>POST spelers</p>
+                <form method="post" action="/rest/z_api_example/spelers">
+                    <input name="naam" type="text">
+                    <input type="submit" value="Verzenden">
+                </form>
+                <br>
+            </li>
+            <li>PUT speler 24: niet mogelijk vanuit HTML</li>
+            <li>DELETE speler 24: niet mogelijk vanuit HTML</li>
+        </ul>
+
+</body>
+</html>
