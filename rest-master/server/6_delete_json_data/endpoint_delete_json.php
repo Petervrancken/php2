@@ -7,6 +7,10 @@ $contents = json_decode( file_get_contents("php://input") );
 $naam = $contents->naam;
 unset( $array[ $naam ] );
 
+$fp = fopen("log.txt", "a+");
+fwrite($fp, $naam . "\r\n");
+fclose($fp);
+
 //natuurlijk kan je ook data in de databank verwijderen ...
 
 //response in JSON formaat
