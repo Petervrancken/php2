@@ -8,7 +8,7 @@ $naam = $contents->naam;
 $leeftijd = $contents->leeftijd;
 $array[ $naam ] = $leeftijd;
 
-//natuurlijk kan je ook data in de databank toevoegen/updaten/...
+//natuurlijk kan je ook data in de databank updaten/...
 
 //response in JSON formaat
 print json_encode($array);

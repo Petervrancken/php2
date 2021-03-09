@@ -1,4 +1,8 @@
 <?php
+
+// poort staat op 1252!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 $method = $_SERVER['REQUEST_METHOD'];
 $request_uri = $_SERVER['REQUEST_URI'];
 
@@ -29,6 +33,7 @@ if ( $method == "POST" AND $request_part == "spelers"  )
     $naam = $_POST["naam"];
     $sql = "INSERT INTO spelers SET spe_naam='$naam' ";
     // ... execute $sql
+    http_response_code(201);
     print json_encode( [ "msg" => $sql ] ) ; //normaal zou je hier een OK teruggeven
 }
 
@@ -50,5 +55,6 @@ if ( $method == "DELETE" AND $request_part == "speler" )
     // ... execute $sql
     print json_encode( [ "msg" => $sql ] ) ; //normaal zou je hier een OK teruggeven
 }
+
 ?>
 
