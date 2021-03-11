@@ -33,7 +33,7 @@ PrintNavbar();
     $output .= MergeViewWithData( $template, $data );
 
 
-    foreach ( $data as $row ) {
+    /*foreach ( $data as $row ) {
 
         //var_dump($row['img_weather_location']);
         $url = 'api.openweathermap.org/data/2.5/weather?q='. $row['img_weather_location'] .'&lang=nl&units=metric&appid=b52796bc30156e560a722c868e798a2e';
@@ -64,7 +64,7 @@ PrintNavbar();
     }
     $output= str_replace("@weather@", $weather, $output);
     $output= str_replace("@temperature@", $temperature, $output);
-    $output= str_replace("@humidity@", $humidity, $output);
+    $output= str_replace("@humidity@", $humidity, $output);*/
 
     print $output;
 
