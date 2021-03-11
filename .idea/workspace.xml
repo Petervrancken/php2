@@ -2,30 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dce87514-e7b3-41c5-8809-1cdcec2f5b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oef1.7/export/AbstractCSVExport.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.7/export/ExportBTW.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.7/export/ExportImages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.7/export/export_btw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.7/export/export_images.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.7/log/debug.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.7/services/DebugLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef1.7/services/LoggerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oef2.1/services/restclient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/btw.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/btw.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/img/stad1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/img/berlin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/img/stad2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/img/london_2423609b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/img/stad3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/img/paris.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/lib/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/lib/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/lib/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/lib/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/lib/csv_export_functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/lib/export_btw.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/models/AbstractCity.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/models/City.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/services/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/services/Container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/services/DBManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/services/DBManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/services/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/services/Logger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oef1.7/steden.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef1.7/steden.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/assets/dropzone.css" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/assets/dropzone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/btw.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/btw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/btw_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/btw_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/date1.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/date1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/date2.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/date2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/dropzone.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/dropzone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/export/AbstractCSVExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/export/AbstractCSVExport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/export/ExportBTW.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/export/ExportBTW.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/export/ExportImages.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/export/ExportImages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/export/export_btw.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/export/export_btw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/export/export_images.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/export/export_images.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/img/beer4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/img/beer4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/img/stad1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/img/stad1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/img/stad2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/img/stad2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/img/stad3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/img/stad3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/js/dropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/js/dropzone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/access_control.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/access_control.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/form_elements.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/form_elements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/html_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/html_functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/login_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/login_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/routing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/sanitize.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/sanitize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/save.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/save.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/security.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/security.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/strings.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/strings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/lib/upload_dropzone.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/lib/upload_dropzone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/log/debug.txt" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/log/debug.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/log/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/models/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/no_access.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/no_access.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/profiel.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/profiel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/services/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/services/Container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/services/DBManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/services/DBManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/services/DebugLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/services/DebugLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/services/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/services/Logger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/services/LoggerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/services/LoggerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/services/LoginChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/services/LoginChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/services/MessageService.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/services/MessageService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/services/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/services/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/showLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/showLog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/stad.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/stad.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/stad_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/stad_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/steden.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/steden.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/btw_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/btw_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/column.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/column.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/column_full.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/column_full.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/dropzone.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/dropzone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/jumbo.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/jumbo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/profiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/profiel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef1.8/templates/stad_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.1/templates/stad_form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +86,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oef2.1/services" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Bitnami\wampstack-7.4.11-0\apache2\htdocs\php2\oef2.1\services" />
       <recent name="C:\Bitnami\wampstack-7.4.11-0\apache2\htdocs\php2" />
       <recent name="C:\Bitnami\wampstack-7.4.11-0\apache2\htdocs\php2\oef1.7\models" />
       <recent name="C:\Bitnami\wampstack-7.4.11-0\apache2\htdocs\php2\oef1.4" />
       <recent name="C:\Bitnami\wampstack-7.4.11-0\apache2\htdocs\php2\oef1.6" />
-      <recent name="C:\Bitnami\wampstack-7.4.11-0\apache2\htdocs\php2\oef1.5" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,7 +126,7 @@
       <workItem from="1615237691884" duration="11882000" />
       <workItem from="1615284605381" duration="4142000" />
       <workItem from="1615297804031" duration="829000" />
-      <workItem from="1615407782325" duration="1855000" />
+      <workItem from="1615407782325" duration="18971000" />
     </task>
     <task id="LOCAL-00001" summary="start php2">
       <created>1612404871093</created>
@@ -292,14 +331,20 @@
       <option name="project" value="LOCAL" />
       <updated>1615297826278</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="1.8 start">
+      <created>1615409792975</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1615409792975</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start php2" />
     <MESSAGE value="oefening 1.1" />
     <MESSAGE value="oefening 1.2 start" />
     <MESSAGE value="oefening getters and setters set" />
@@ -324,7 +369,8 @@
     <MESSAGE value="1.6 add" />
     <MESSAGE value="1.7 poging, stuck" />
     <MESSAGE value="1.7 rest-master" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.7 rest-master" />
+    <MESSAGE value="1.8 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.8 start" />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614124898662">
@@ -340,11 +386,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614125313161" />
-    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1615297825388">
+    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1615409791814">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="321" y="-1440" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1614197481252" />
-    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615297825388" />
+    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615409791814" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1612817848774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -361,11 +407,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615408240952" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615251235626">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615409803414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="278" y="-1194" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1614197504798" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615251235626" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615409803414" />
     <state x="-324" y="-1355" width="1188" height="833" key="dock-window-1" timestamp="1614807334901">
       <screen x="-324" y="-1440" width="2560" height="1400" />
     </state>
@@ -374,5 +420,9 @@
       <screen x="-324" y="-1440" width="2560" height="1400" />
     </state>
     <state x="1345" y="-814" width="579" height="534" key="find.popup/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614210090680" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1615418485931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615418485931" />
   </component>
 </project>

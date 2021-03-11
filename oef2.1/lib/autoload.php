@@ -18,6 +18,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/models/User.php";
 //services
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/MessageService.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/DBManager.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/restclient.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/LoggerInterface.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/Logger.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . $app_root . "/services/DebugLogger.php";

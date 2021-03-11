@@ -45,6 +45,8 @@ function MergeViewWithData( $template, $data )
 
         foreach( array_keys($row) as $field )  //eerst "img_id", dan "img_title", ...
         {
+            //var_dump($row['img_weather_location']);
+            //var_dump($row['img_weather_location']);
             $output = str_replace( "@$field@", $row["$field"], $output );
         }
 
