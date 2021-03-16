@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dce87514-e7b3-41c5-8809-1cdcec2f5b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/comp/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comp/log/app.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/comp/vendor/autoload.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/comp/vendor/bin/carbon" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/comp/vendor/bin/carbon.bat" afterDir="false" />
@@ -1154,7 +1150,7 @@
       <workItem from="1615297804031" duration="829000" />
       <workItem from="1615407782325" duration="19567000" />
       <workItem from="1615894764465" duration="64000" />
-      <workItem from="1615894927903" duration="3720000" />
+      <workItem from="1615894927903" duration="5090000" />
     </task>
     <task id="LOCAL-00001" summary="start php2">
       <created>1612404871093</created>
@@ -1380,14 +1376,20 @@
       <option name="project" value="LOCAL" />
       <updated>1615431025647</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added composer">
+      <created>1615900608023</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1615900608023</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="oefening getters and setters set" />
     <MESSAGE value="rdy" />
     <MESSAGE value="start ready" />
     <MESSAGE value="plaatsing van berichten" />
@@ -1412,7 +1414,8 @@
     <MESSAGE value="1.8 start" />
     <MESSAGE value="2.1 almost" />
     <MESSAGE value="2.1 het werkt" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.1 het werkt" />
+    <MESSAGE value="added composer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added composer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614124898662">
@@ -1428,11 +1431,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614125313161" />
-    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1615431025036">
+    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1615900605472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="321" y="-1440" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1614197481252" />
-    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615431025036" />
+    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615900605472" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1612817848774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

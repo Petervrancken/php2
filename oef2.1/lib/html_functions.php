@@ -45,23 +45,6 @@ function MergeViewWithData( $template, $data )
 
         foreach( array_keys($row) as $field )  //eerst "img_id", dan "img_title", ...
         {
-            $url = 'api.openweathermap.org/data/2.5/weather?q='. $row['img_weather_location'] .'&lang=nl&units=metric&appid=b52796bc30156e560a722c868e798a2e';
-
-            $restClient = new RESTClient($authentication = null);
-
-            $restClient->CurlInit($url);
-            $response = $restClient->CurlExec();
-            $response= json_decode($response);
-
-            //var_dump($response);
-
-            $weather= $response->weather[0]->description;
-            $temperature =$response->main->temp;
-            $humidity = $response->main->humidity;
-
-            $output= str_replace("@weather@", $weather, $output);
-            $output= str_replace("@temperature@", $temperature, $output);
-            $output= str_replace("@humidity@", $humidity, $output);
             $output = str_replace( "@$field@", $row["$field"], $output );
         }
 
