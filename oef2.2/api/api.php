@@ -45,11 +45,17 @@ for ( $i=0; $i<count($parts) ;$i++)
 $request_part = $parts[$i + 1];
 if (count($parts) > $i + 1) {
     $id = $parts[$i + 2];
-    var_dump($id);
 }
+var_dump($id);
+var_dump($request_part);
 // globale test, werk bij zowel codes als code, anders geeft het een foutmelding
 if($request_part !== "btwcodes" && $request_part !== "btwcode" ){
     print json_encode( [ "msg" => "Request ongeldig" ] ) ;
+}
+
+if ($id AND $request_part == "btwcodes") {
+    print json_encode( [ "msg" => "Request ongeldig" ] ) ;
+    exit;
 }
 
 //Meerdere codes

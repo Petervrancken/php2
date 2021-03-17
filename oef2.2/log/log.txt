@@ -166,3 +166,14 @@
 2021-03-17 17:13:05: select * from eu_btw_codes
 2021-03-17 17:13:07: select * from eu_btw_codes
 2021-03-17 17:14:54: select * from eu_btw_codes
+2021-03-17 17:21:41: select * from eu_btw_codes
+2021-03-17 17:22:05: select * from eu_btw_codes where eub_id=8
+2021-03-17 17:22:18: select * from eu_btw_codes where eub_id=8
+2021-03-17 17:24:59: select * from eu_btw_codes where eub_id=7
+2021-03-17 17:25:09: select * from eu_btw_codes
+2021-03-17 17:27:18: INSERT INTO eu_btw_codes SET eub_code='CH', eub_land='China' 
+2021-03-17 17:30:41: UPDATE eu_btw_codes SET eub_code='BE', eub_land='Belgie' where eub_id=9 
+2021-03-17 17:31:44: DELETE FROM eu_btw_codes WHERE eub_id=9
+2021-03-17 17:33:30: select * from eu_btw_codes where eub_id=8
+2021-03-17 17:40:45: DELETE FROM eu_btw_codes WHERE eub_id=9
+2021-03-17 17:41:19: select * from eu_btw_codes
