@@ -56,15 +56,8 @@ if ( $method == "GET" AND $request_part == "btwcodes" )
 if ( $method == "GET" AND $request_part == "btwcode" )
 {
     $sql = "select * from eu_btw_codes where eub_id=$id";
-    $data = $container->getDBManager()->GetData( $sql , 'assoc' );
-
-    if ( $data ) {
-        print json_encode(["msg" => 'OK', "data" => $data]);
-        exit;
-    } else {
-        print json_encode(["msg" => 'Het opgegeven ID is ongeldig']);
-        exit;
-    }
+    // ... execute $sql
+    print json_encode( [ "msg" => $sql ] ) ; //normaal zou je hier ��n speler teruggeven
 }
 
 // nieuwe code toevoegen

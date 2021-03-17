@@ -2,74 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dce87514-e7b3-41c5-8809-1cdcec2f5b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oef2.2/api/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/api/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/assets/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/btw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/btw_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/date1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/date2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/dropzone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/export/AbstractCSVExport.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/export/ExportBTW.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/export/ExportImages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/export/export_btw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/export/export_images.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/img/beer4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/img/berlin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/img/london_2423609b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/img/paris.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/img/stad1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/img/stad2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/img/stad3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/js/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/access_control.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/form_elements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/html_functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/login_check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/routing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/sanitize.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/save.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/security.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/strings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/lib/upload_dropzone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/log/debug.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/log/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/models/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/no_access.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/profiel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/services/Container.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/services/DBManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/services/DebugLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/services/Logger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/services/LoggerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/services/LoginChecker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/services/MessageService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/services/RESTClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/services/Validator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/showLog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/stad.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/stad_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/steden.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/btw_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/column_full.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/dropzone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/jumbo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/profiel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oef2.2/templates/stad_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oef2.2/api/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/oef2.2/api/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +80,7 @@
       <workItem from="1615407782325" duration="19567000" />
       <workItem from="1615894764465" duration="64000" />
       <workItem from="1615894927903" duration="5090000" />
-      <workItem from="1615931076613" duration="5712000" />
+      <workItem from="1615931076613" duration="6054000" />
     </task>
     <task id="LOCAL-00001" summary="start php2">
       <created>1612404871093</created>
@@ -387,14 +320,20 @@
       <option name="project" value="LOCAL" />
       <updated>1615931262153</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2.2 trying to match database">
+      <created>1615940167827</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1615940167827</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start ready" />
     <MESSAGE value="plaatsing van berichten" />
     <MESSAGE value="plaatsing van berichten poging" />
     <MESSAGE value="1.4 probleem met variabelen" />
@@ -419,7 +358,8 @@
     <MESSAGE value="2.1 het werkt" />
     <MESSAGE value="added composer" />
     <MESSAGE value="2.1 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.1 completed" />
+    <MESSAGE value="2.2 trying to match database" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.2 trying to match database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614124898662">
@@ -435,11 +375,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614125313161" />
-    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1615931259965">
+    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1615940167218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="321" y="-1440" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1614197481252" />
-    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615931259965" />
+    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615940167218" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1612817848774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
