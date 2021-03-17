@@ -29,7 +29,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 $request_uri = $_SERVER['REQUEST_URI'];
 
 $parts = explode("/", $request_uri);
-var_dump($parts);
+var_dump(count($parts));
 
 //zoek "rest" in de uri
 for ( $i=0; $i<count($parts) ;$i++)
@@ -39,10 +39,15 @@ for ( $i=0; $i<count($parts) ;$i++)
         break;
     }
 }
+var_dump($parts[$i]);
+$request_part = $parts[$i + 5];
+if (count($parts) > $i + 1) {
+    $id = $parts[$i + 2];
+}
+var_dump($request_part);
 
-$request_part = $parts[$i+5];
-if ( count($parts) > $i + 5 ) $id = $parts[$i + 5];
-
+//$request_part = $parts[$i+5];
+//if ( count($parts) > $i + 5 ) $id = $parts[$i + 5];
 
 //Meerdere codes
 if ( $method == "GET" AND $request_part == "btwcodes" )
