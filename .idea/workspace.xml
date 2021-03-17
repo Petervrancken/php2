@@ -11,7 +11,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/comp/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -82,7 +82,9 @@
       <workItem from="1615407782325" duration="19567000" />
       <workItem from="1615894764465" duration="64000" />
       <workItem from="1615894927903" duration="5090000" />
-      <workItem from="1615931076613" duration="6554000" />
+      <workItem from="1615931076613" duration="6593000" />
+      <workItem from="1615940990914" duration="252000" />
+      <workItem from="1615987112310" duration="13833000" />
     </task>
     <task id="LOCAL-00001" summary="start php2">
       <created>1612404871093</created>
@@ -336,14 +338,20 @@
       <option name="project" value="LOCAL" />
       <updated>1615940202137</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="2.2 count parts ???">
+      <created>1615940723997</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1615940723997</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="plaatsing van berichten" />
     <MESSAGE value="plaatsing van berichten poging" />
     <MESSAGE value="1.4 probleem met variabelen" />
     <MESSAGE value="1.3 msgs and errors work" />
@@ -368,7 +376,8 @@
     <MESSAGE value="added composer" />
     <MESSAGE value="2.1 completed" />
     <MESSAGE value="2.2 trying to match database" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.2 trying to match database" />
+    <MESSAGE value="2.2 count parts ???" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.2 count parts ???" />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614124898662">
@@ -384,11 +393,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614125313161" />
-    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1615940201541">
+    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1615940723419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="321" y="-1440" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1614197481252" />
-    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615940201541" />
+    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615940723419" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1612817848774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -405,15 +414,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615898243323" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615940208103">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615940733785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="278" y="-1194" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@-324.-1440.2560.1400" timestamp="1614197504798" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615940208103" />
-    <state x="-324" y="-1355" width="1188" height="833" key="dock-window-1" timestamp="1614807334901">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615940733785" />
+    <state x="949" y="-1440" width="1294" height="1407" key="dock-window-1" timestamp="1615989095836">
       <screen x="-324" y="-1440" width="2560" height="1400" />
     </state>
-    <state x="-324" y="-1355" width="1188" height="833" key="dock-window-1/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1614807334901" />
+    <state x="949" y="-1440" width="1294" height="1407" key="dock-window-1/0.0.1536.824/-324.-1440.2560.1400@0.0.1536.824" timestamp="1615989095836" />
     <state x="1345" y="-814" width="579" height="534" key="find.popup" timestamp="1614210090680">
       <screen x="-324" y="-1440" width="2560" height="1400" />
     </state>

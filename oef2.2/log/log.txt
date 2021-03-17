@@ -117,3 +117,52 @@
 2021-03-16 23:48:34: select * from eu_btw_codes
 2021-03-16 23:48:42: select * from images
 2021-03-17 00:19:16: select * from eu_btw_codes
+2021-03-17 13:47:35: select * from eu_btw_codes
+2021-03-17 13:48:18: select * from eu_btw_codes
+2021-03-17 13:50:39: select * from eu_btw_codes
+2021-03-17 13:51:41: select * from eu_btw_codes
+2021-03-17 13:52:21: select * from eu_btw_codes
+2021-03-17 13:52:59: select * from eu_btw_codes
+2021-03-17 13:53:07: select * from eu_btw_codes
+2021-03-17 13:53:53: select * from eu_btw_codes
+2021-03-17 13:53:58: select * from eu_btw_codes
+2021-03-17 13:55:11: select * from eu_btw_codes
+2021-03-17 13:57:32: select * from eu_btw_codes where eub_id=3
+2021-03-17 13:58:59: select * from eu_btw_codes where eub_id=3
+2021-03-17 13:59:26: select * from eu_btw_codes where eub_id=5
+2021-03-17 14:19:38: INSERT INTO eu_btw_codes SET eub_code='GR', eub_land='Griekenland' 
+2021-03-17 14:22:26: INSERT INTO eu_btw_codes SET eub_code='TH', eub_land='Thailand' 
+2021-03-17 14:26:19: select * from eu_btw_codes where eub_id=
+2021-03-17 14:26:46: select * from eu_btw_codes where eub_id=
+2021-03-17 14:46:43: select * from eu_btw_codes
+2021-03-17 14:49:19: select * from eu_btw_codes
+2021-03-17 14:49:28: select * from eu_btw_codes where eub_id=5
+2021-03-17 15:04:21: select * from eu_btw_codes where eub_id=5
+2021-03-17 15:12:17: UPDATE eu_btw_codes SET eub_code='JP', eub_land='Japan' 
+2021-03-17 15:18:07: UPDATE eu_btw_codes SET eub_code='BE', eub_land='Belgie' where eub_id=5 
+2021-03-17 15:28:50: DELETE FROM eu_btw_codes WHERE eub_id=5
+2021-03-17 15:41:37: DELETE FROM eu_btw_codes WHERE eub_id=6
+2021-03-17 15:56:03: UPDATE eu_btw_codes SET eub_code='BE', eub_land='Belgie' where eub_id=5 
+2021-03-17 16:00:05: DELETE FROM eu_btw_codes WHERE eub_id=6
+2021-03-17 16:08:27: INSERT INTO eu_btw_codes SET eub_code='PH', eub_land='Philipines' 
+2021-03-17 16:13:56: INSERT INTO eu_btw_codes SET eub_code='NZ', eub_land='New zeeland' 
+2021-03-17 16:14:24: UPDATE eu_btw_codes SET eub_code='BE', eub_land='Belgie' where eub_id=5 
+2021-03-17 16:14:40: UPDATE eu_btw_codes SET eub_code='BE', eub_land='Belgie' where eub_id=7 
+2021-03-17 16:15:16: select * from eu_btw_codes where eub_id=7
+2021-03-17 16:29:51: select * from eu_btw_codes
+2021-03-17 16:31:45: select * from eu_btw_codes
+2021-03-17 16:42:13: select * from eu_btw_codes
+2021-03-17 16:44:28: select * from eu_btw_codes
+2021-03-17 16:45:43: select * from eu_btw_codes
+2021-03-17 16:49:47: select * from eu_btw_codes
+2021-03-17 16:56:44: select * from eu_btw_codes
+2021-03-17 16:57:53: select * from eu_btw_codes
+2021-03-17 16:58:22: select * from eu_btw_codes
+2021-03-17 17:03:33: select * from eu_btw_codes
+2021-03-17 17:06:07: select * from eu_btw_codes where eub_id=8
+2021-03-17 17:06:38: select * from eu_btw_codes where eub_id=8
+2021-03-17 17:12:20: select * from eu_btw_codes where eub_id=5
+2021-03-17 17:12:33: select * from eu_btw_codes where eub_id=8
+2021-03-17 17:13:05: select * from eu_btw_codes
+2021-03-17 17:13:07: select * from eu_btw_codes
+2021-03-17 17:14:54: select * from eu_btw_codes

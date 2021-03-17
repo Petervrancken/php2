@@ -29,69 +29,97 @@ $method = $_SERVER['REQUEST_METHOD'];
 $request_uri = $_SERVER['REQUEST_URI'];
 
 $parts = explode("/", $request_uri);
-var_dump(count($parts));
+//var_dump(count($parts));
+//var_dump($parts);
 
-//zoek "rest" in de uri
+
+//zoek "api" in de uri
 for ( $i=0; $i<count($parts) ;$i++)
 {
-    if ( $parts[$i] == "rest" )
+    if ( $parts[$i] == "api" )
     {
         break;
     }
 }
-var_dump($parts[$i]);
-$request_part = $parts[$i + 5];
+//var_dump($parts[$i]);
+$request_part = $parts[$i + 1];
 if (count($parts) > $i + 1) {
     $id = $parts[$i + 2];
+    var_dump($id);
 }
-var_dump($request_part);
-
-//$request_part = $parts[$i+5];
-//if ( count($parts) > $i + 5 ) $id = $parts[$i + 5];
+// globale test, werk bij zowel codes als code, anders geeft het een foutmelding
+if($request_part !== "btwcodes" && $request_part !== "btwcode" ){
+    print json_encode( [ "msg" => "Request ongeldig" ] ) ;
+}
 
 //Meerdere codes
 if ( $method == "GET" AND $request_part == "btwcodes" )
 {
     $sql = "select * from eu_btw_codes";
+    $data = $container->getDBManager()->GetData($sql, $fetch= 'assoc');
     // ... execute $sql
-    print json_encode( [ "msg" => $sql ] ) ; //normaal zou je hier alle spelers teruggeven
+    print json_encode( [ "msg" => $data ] ) ;
+
 }
 
 // 1 code opvragen
 if ( $method == "GET" AND $request_part == "btwcode" )
 {
-    $sql = "select * from eu_btw_codes where eub_id=$id";
-    // ... execute $sql
-    print json_encode( [ "msg" => $sql ] ) ; //normaal zou je hier ��n speler teruggeven
+    if(is_numeric($id)){
+        $sql = "select * from eu_btw_codes where eub_id=$id";
+        $data = $container->getDBManager()->GetData($sql, $fetch= 'assoc');
+        // ... execute $sql
+        print json_encode( [ "msg" => $data ] ) ;
+    }else{
+        print json_encode( [ "msg" => "ID is not a number" ] ) ;
+    }
 }
+
 
 // nieuwe code toevoegen
 if ( $method == "POST" AND $request_part == "btwcodes"  )
 {
     $code = $_POST["code"];
-    $sql = "INSERT INTO eu_btw_codes SET eub_code='$code' ";
+    $land = $_POST["land"];
+    $sql = "INSERT INTO eu_btw_codes SET eub_code='$code', eub_land='$land' ";
+    $data = $container->getDBManager()->ExecuteSQL($sql);
     // ... execute $sql
     http_response_code(201);
-    print json_encode( [ "msg" => $sql ] ) ; //normaal zou je hier een OK teruggeven
+    print json_encode( [ "msg" => $data, "New country added"] );
+    exit;
 }
+
+
 
 //code updaten
 if ( $method == "PUT" AND $request_part == "btwcode" )
 {
-    $contents = json_decode( file_get_contents("php://input") );
-    $newdata = $contents->naam;
-
-    $sql = "UPDATE eub_btw_codes SET eub_code, eub_land='$newdata' WHERE spe_id=$id";
-    // ... execute $sql
-    print json_encode( [ "msg" => $sql ] ) ; //normaal zou je hier een OK teruggeven
+    if(is_numeric($id)){
+        $contents = json_decode( file_get_contents("php://input") );
+        $newland = $contents->land;
+        $newcode = $contents->code;
+        $sql = "UPDATE eu_btw_codes SET eub_code='$newcode', eub_land='$newland' where eub_id=$id ";
+        $data = $container->getDBManager()->ExecuteSQL($sql);
+        // ... execute $sql
+        print json_encode( [ "msg" => $newland, $newcode, "New Country updated" ] ) ;
+        exit;
+    }else{
+        print json_encode( [ "msg" => "ID is not a number" ] ) ;
+    }
 }
 
-//DELETE speler: een speler verwijderen
-if ( $method == "DELETE" AND $request_part == "speler" )
+//DELETE a code
+if ( $method == "DELETE" AND $request_part == "btwcode" )
 {
-    $sql = "DELETE FROM spelers WHERE spe_id=$id";
-    // ... execute $sql
-    print json_encode( [ "msg" => $sql ] ) ; //normaal zou je hier een OK teruggeven
+    if(is_numeric($id)){
+        $sql = "DELETE FROM eu_btw_codes WHERE eub_id=$id";
+        $data = $container->getDBManager()->ExecuteSQL($sql);
+        // ... execute $sql
+        print json_encode( [ "msg" => $data, "Is deleted" ] ) ;
+        exit;
+    }else{
+        print json_encode( [ "msg" => "ID is not a number" ] ) ;
+    }
 }
 
 ?>
